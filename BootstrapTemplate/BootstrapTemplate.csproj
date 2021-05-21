@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="wwwroot\assets\" />
+    <Folder Include="wwwroot\assets\files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\js\scripts.js" />
+    <Content Remove="wwwroot\css\styles.css" />
+    <Content Remove="wwwroot\assets\favicon.ico" />
+    <Content Remove="wwwroot\assets\img\bg-masthead.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\1.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\2.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\3.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\4.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\5.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\fullsize\6.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\1.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\2.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\3.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\4.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\5.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\thumbnails\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\js\scripts.js" />
+    <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\assets\favicon.ico" />
+    <None Include="wwwroot\assets\img\bg-masthead.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\1.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\2.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\3.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\4.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\5.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\fullsize\6.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\1.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\2.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\3.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\4.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\5.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\thumbnails\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer" Version="2.17.0" />
+    <PackageReference Include="Takenet.Microsoft.ApplicationInsights.Telemetry.Services" Version="0.7.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.EtwCollector" Version="2.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel" Version="2.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.PerfCounterCollector" Version="2.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+  </ItemGroup>
+</Project>
